@@ -19,14 +19,14 @@ import { SocialIcon } from 'react-social-icons';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center md:items-start justify-center md:justify-between px-8 md:px-24 py-8">
+    <main className="flex min-h-screen flex-col items-center md:items-start justify-center md:justify-between px-8 md:px-24 py-8 selection:text-primary">
       <section className="flex flex-col md:flex-row items-center md:items-start text-center md:text-start justify-between w-full">
         <TypographyH1>
           <span className="text-lg font-normal transition-all hover:text-3xl">
             Vote & Support
           </span>
           <br />
-          <b>Dave Kapur</b>
+          <b className="transition-all hover:text-primary">Dave Kapur</b>
           <br />
           <span className="text-xl font-normal">
             for Board of Director at the Austin Board of REALTORS®
@@ -42,7 +42,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="mt-4 md:-mt-8">
+      <section className="mt-4 md:-mt-4">
         <TypographyH4>Hello Fellow REALTORS®!</TypographyH4>
         <TypographyP>
           I am Dave Kapur, Broker Associate with All City Real Estate, Ltd. Co.
